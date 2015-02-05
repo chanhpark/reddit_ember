@@ -12,6 +12,7 @@
     "ember-load-initializers": "ember-cli/ember-load-initializers#0.0.2",
     "ember-qunit": "rwjblue/ember-qunit-builds#0.2.1",
     "ember-qunit-notifications": "0.0.5",
-    "qunit": "~1.17.1"
+    "qunit": "~1.17.1",
+    "bootstrap": "~3.3.2"
   }
 }
