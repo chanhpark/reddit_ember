@@ -1,4 +1,4 @@
-`import Store from 'reddit_ember/app/models/store'`
+`import Store from 'emberreddit/models/store'`
 
 # Takes two parameters: container and app
 initialize = (container, app) ->
