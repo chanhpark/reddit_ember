@@ -6,6 +6,12 @@ SubredditAdapter = Ember.Object.extend
     # name:  subreddit
     # id: aww
 
-    ajax("http://www.reddit.com/r/#{id}.json")
+    ajax("http://www.reddit.com/r/#{id}.json").then( (result) ->
+      result.data.children.map (c)->
+        id: c.id
+        title: c.data.title
+        domain: c.data.domain
+        url: c.data.url
+    )
 
 `export default SubredditAdapter`
