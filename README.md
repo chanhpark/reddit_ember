@@ -1,4 +1,4 @@
-# Emberreddit
+# reddit_ember
 
 Coffeescript version of the EmberEdit application built here: https://www.youtube.com/watch?v=7twifrxOTQY.
 

@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'emberreddit',
+    modulePrefix: 'reddit_ember',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',

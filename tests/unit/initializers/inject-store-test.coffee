@@ -1,5 +1,5 @@
 `import Ember from 'ember'`
-`import { initialize } from 'emberreddit/initializers/inject-store'`
+`import { initialize } from 'reddit_ember/initializers/inject-store'`
 
 container = null
 application = null
