@@ -2,6 +2,6 @@
 
 <ul>
   {{#each}}
-    <li><a {{bind-attr href=url}}>{{title}}</a> ({{domain}})</li>
+    <li>{{reddit-post post=this}}</li>
   {{/each}}
 </ul>
