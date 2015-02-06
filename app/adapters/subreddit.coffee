@@ -1,4 +1,4 @@
-`import DS from 'ember-data'`
+`import Ember from 'ember'`
 `import ajax from 'ic-ajax'`
 
 SubredditAdapter = Ember.Object.extend
